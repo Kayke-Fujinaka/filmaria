@@ -1,0 +1,43 @@
+.containerList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-block: 1rem;
+}
+
+.containerList h1 {
+    margin-bottom: 0.5rem;
+}
+
+.containerList span {
+    font-size: 1rem;
+}
+
+.containerList ul {
+    width: 40rem;
+}
+
+.containerList ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 0.5rem;
+
+    list-style: none;
+}
+
+.containerList div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerList div a {
+    margin-right: 0.5rem;
+
+    color: #116FEB;
+    text-decoration: none;
+}
