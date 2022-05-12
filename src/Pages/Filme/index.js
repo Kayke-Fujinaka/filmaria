@@ -26,14 +26,12 @@ export default function Filme() {
           setLoading(false);
         })
         .catch(() => {
-          console.log("FILME NÃO ENCONTRADO")
           navigate('/', { replace: true });
           return;
         })
     }
     loadFilme()
     return () => {
-      console.log("COMPONENTE DESMONTADO")
     }
   }, [])
 
@@ -45,13 +43,17 @@ export default function Filme() {
     const hasFilmes = filmeSalvos.some( (filmeSalvo) => filmeSalvo.id === filme.id)
 
     if(hasFilmes){
-      toast.warn("Esse filme já está na sua lista!");
+      toast.warn("Esse filme já está na sua lista!", {
+        theme: "colored"
+      });
       return;
     }
 
     filmeSalvos.push(filme)
     localStorage.setItem("@fujiflix", JSON.stringify(filmeSalvos));
-    toast.success("Filme salvo com sucesso!");
+    toast.success("Filme salvo com sucesso!", {
+      theme: "colored"
+    });
 
   }
 

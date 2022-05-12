@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 import './styles.css'
 
@@ -18,6 +19,9 @@ export default function Favoritos() {
 
     setFilmes(filtroFilmes)
     localStorage.setItem('@fujiflix', JSON.stringify(filtroFilmes))
+    toast.success("Excluido com sucesso!", {
+      theme: "colored"
+    })
   }
 
   return (
