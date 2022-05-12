@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #FFF;
 
     margin-block: 1rem;
 }
@@ -38,6 +39,14 @@
 .containerList div a {
     margin-right: 0.5rem;
 
-    color: #116FEB;
+    color: #BE123C;
     text-decoration: none;
+}
+
+.containerList div button {
+    background: #BE123C;
+    padding: 0.25rem;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
 }

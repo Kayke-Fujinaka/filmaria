@@ -6,16 +6,72 @@
     margin-top: 1rem;
 }
 
+.movie-wrapper {
+    width: 98vw;
+    height: 70vh;
+    position: relative;
+}
+
+.img-wrapper {
+    width: 99.05vw;
+    height: 90vh;
+    background: #000;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.text-wrapper {
+    position: absolute;
+    top: 8rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+}
+
+.text-wrapper img { 
+    width: 100%;
+}
+
+.text-wrapper p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button-home {
+    margin: 0 auto;
+    width: 170px;
+    height: 36px;
+    background: #BE123C;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .lista-filmes {
     max-width: 45rem;
-    margin: 1rem auto;
+    margin: 10rem auto;
 }
 
 .lista-filmes article {
     width: 100%;
     padding: 1rem;
 
-    background-color: #FFF;
+    color: #FFF;
+
     border-radius: 0.25rem;
 }
 
@@ -52,7 +108,7 @@
     color: #FFF;
     text-decoration: none;
 
-    background-color: #116FEB;
+    background-color: #BE123C;
 }
 
 .lista-filmes a:hover {

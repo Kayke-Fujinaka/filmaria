@@ -1,6 +1,7 @@
 .filmeInfo {
     display: flex;
     flex-direction: column;
+    color: #FFF;
 
     max-width: 45rem;
 
@@ -55,6 +56,6 @@
 
 .btnArea button:hover,
 .btnArea button a:hover {
-    background-color: #116FEB;
+    background-color: #BE123C;
     color: #FFF;
 }
