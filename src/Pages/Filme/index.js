@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify'
 
 import api from '../../Services/api';
 
@@ -44,13 +45,13 @@ export default function Filme() {
     const hasFilmes = filmeSalvos.some( (filmeSalvo) => filmeSalvo.id === filme.id)
 
     if(hasFilmes){
-      alert("Esse filme já está na lista!");
+      toast.warn("Esse filme já está na sua lista!");
       return;
     }
 
     filmeSalvos.push(filme)
     localStorage.setItem("@fujiflix", JSON.stringify(filmeSalvos));
-    alert("Filme salvo com sucesso!")
+    toast.success("Filme salvo com sucesso!");
 
   }
 
