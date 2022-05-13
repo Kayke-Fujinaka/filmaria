@@ -1,6 +1,6 @@
 # FujiFlix
 
-<img src="./src/assets/post.gif" alt="Um gif apresentando o projeto">
+<img src="./src/Assets/post.gif" alt="Um gif apresentando o projeto">
 
 >  Um site de Filmaria que apresenta alguns filmes!!!
 
