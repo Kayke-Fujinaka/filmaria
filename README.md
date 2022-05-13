@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# FujiFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assets/post.gif" alt="Um gif apresentando o projeto">
 
-## Available Scripts
+>  Um site de Filmaria que apresenta alguns filmes!!!
 
-In the project directory, you can run:
+Confira a aplicação: https://fujiflix.netlify.app
 
-### `npm start`
+## :page_facing_up: Explicação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O usuário acessa a Home e tem uma lista de filmes que podem ser acessados ​​individualmente após clicar no botão 'Acessar'. O visitante será redirecionado para a página 'Filme', com a sinopse, imagem e nome do filme escolhido. O usuário após acessar um filme pode salvá-lo em sua lista de favoritos. Para ver sua lista de favoritos, basta acessar o Cabeçalho, clicando na seção 'Favoritos', onde o usuário pode deletar o filme e ver detalhes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O App foi desenvolvido com React, utilizando componentes, rotas e páginas. O cabeçalho foi projetado como um componente fixo em todas as páginas. A lista de filmes vem depois que uma API 'Subject Programmer' é consumida pelo Axios e listada com o gancho useEffect assim que a página é iniciada ou recarregada. O usuário após acessar um filme individualmente é redirecionado para outra rota, essas rotas e links foram introduzidos com o React Router Dom. Após o usuário ter marcado o filme, ele terá um novo array introduzido em seu LocalStorage, onde todos os filmes que ele marcou são armazenados. Eu também usei uma biblioteca chamada React Toastify para melhor desempenho e estilo de 'alerta'.
 
-### `npm test`
+## :rocket: Tecnologias ##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No projeto foram utilizadas as seguintes tecnologias:
 
-### `npm run build`
+- [ReactJs](https://pt-br.reactjs.org)  
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+- [Axios](https://axios-http.com/docs/intro) 
+- [API](https://developers.themoviedb.org/3/getting-started/introduction)    
+- [Toastify](https://fkhadra.github.io/react-toastify/introduction) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝 Colaboradores
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="160px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <sub>
+          <b>Kayke Fujinaka</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### `npm run eject`
+## 📝 Licença
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este projeto está sob licença. Consulte o arquivo [LICENSE](LICENSE.md) para obter mais detalhes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+&#xa0;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Volte para o topo</a>
