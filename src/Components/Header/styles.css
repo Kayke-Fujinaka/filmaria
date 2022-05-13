@@ -25,16 +25,6 @@ header {
     gap: 2rem;
 }
 
-.navHeader li {
-    color: #e6e6e6;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.navHeader li:hover {
-    color: #FFF;
-}
-
 .favoritos {
     color: #e6e6e6;
     font-size: 1rem;

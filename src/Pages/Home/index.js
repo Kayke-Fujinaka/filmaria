@@ -51,6 +51,7 @@ export default function Home() {
       </div>
       <div className="container">
         <div className="lista-filmes">
+
           {filmes.map((filme) => {
             return (
               <article key={filme.id}>
@@ -63,6 +64,7 @@ export default function Home() {
               </article>
             );
           })}
+
         </div>
       </div>
     </>

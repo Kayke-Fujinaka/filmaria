@@ -62,12 +62,14 @@
 }
 
 .lista-filmes {
-    max-width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75rem;
     margin: 10rem auto;
 }
 
 .lista-filmes article {
-    width: 100%;
+    width: 50%;
     padding: 1rem;
 
     color: #FFF;
@@ -87,7 +89,7 @@
 .lista-filmes img {
     display: block;
 
-    width: 50rem;
+    width: 50erem;
     max-width: 100%;
     max-height: 100%;
 
@@ -113,4 +115,16 @@
 
 .lista-filmes a:hover {
     filter: brightness(0.95);
+}
+
+@media (max-width: 700px) {
+    .lista-filmes {
+        display: flex;
+        max-width: 45rem;
+        margin: 10rem auto;
+    }
+    
+    .lista-filmes article {
+        width: 100%;
+    }
 }
