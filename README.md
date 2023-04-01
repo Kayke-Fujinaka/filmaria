@@ -1,48 +1,48 @@
 # FujiFlix
 
-<img src="./src/Assets/post.gif" alt="Um gif apresentando o projeto">
+<img src="./src/Assets/post.gif" alt="A gif introducing the project">
 
->  Um site de Filmaria que apresenta alguns filmes!!!
+> A Filmmaking site that features some movies!!!
 
-Confira a aplicação: https://fujiflix.netlify.app
+Check out the app: https://fujiflix.netlify.app
 
-## :page_facing_up: Explicação
+## :page_facing_up: Explanation
 
-O usuário acessa a Home e tem uma lista de filmes que podem ser acessados ​​individualmente após clicar no botão 'Acessar'. O visitante será redirecionado para a página 'Filme', com a sinopse, imagem e nome do filme escolhido. O usuário após acessar um filme pode salvá-lo em sua lista de favoritos. Para ver sua lista de favoritos, basta acessar o Cabeçalho, clicando na seção 'Favoritos', onde o usuário pode deletar o filme e ver detalhes.
+The user accesses Home and has a list of movies that can be accessed individually after clicking on the 'Access' button. The visitor will be redirected to the 'Movie' page, with the synopsis, image and name of the chosen movie. After accessing a movie, the user can save it in his favorites list. To see your list of favorites, just access the Header, clicking on the 'Favorites' section, where the user can delete the movie and see details.
 
-O App foi desenvolvido com React, utilizando componentes, rotas e páginas. O cabeçalho foi projetado como um componente fixo em todas as páginas. A lista de filmes vem depois que uma API 'Subject Programmer' é consumida pelo Axios e listada com o gancho useEffect assim que a página é iniciada ou recarregada. O usuário após acessar um filme individualmente é redirecionado para outra rota, essas rotas e links foram introduzidos com o React Router Dom. Após o usuário ter marcado o filme, ele terá um novo array introduzido em seu LocalStorage, onde todos os filmes que ele marcou são armazenados. Eu também usei uma biblioteca chamada React Toastify para melhor desempenho e estilo de 'alerta'.
+The App was developed with React, using components, routes and pages. The header was designed as a fixed component on every page. The movie list comes after a 'Subject Programmer' API is consumed by Axios and listed with the useEffect hook as soon as the page is started or reloaded. The user after accessing a movie individually is redirected to another route, these routes and links were introduced with the React Router Dom. After the user has tagged the movie, he will have a new array introduced into his LocalStorage, where all the movies he tagged are stored. I also used a library called React Toastify for better performance and 'alert' style.
 
-## :rocket: Tecnologias ##
+## :rocket: Technologies ##
 
-No projeto foram utilizadas as seguintes tecnologias:
+The following technologies were used in the project:
 
-- [ReactJs](https://pt-br.reactjs.org)  
+- [ReactJs](https://pt-br.reactjs.org)
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
-- [Axios](https://axios-http.com/docs/intro) 
-- [API](https://developers.themoviedb.org/3/getting-started/introduction)    
-- [Toastify](https://fkhadra.github.io/react-toastify/introduction) 
+- [Axios](https://axios-http.com/docs/intro)
+- [API](https://developers.themoviedb.org/3/getting-started/introduction)
+- [Toastify](https://fkhadra.github.io/react-toastify/introduction)
 
-## 🤝 Colaboradores
+## 🤝 Collaborators
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Thanks to the following people who contributed to this project:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="160px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="160px;" alt="Photo by Kayke Fujinaka on GitHub"/><br>
         <sub>
           <b>Kayke Fujinaka</b>
         </sub>
       </a>
-    </td>
+    </all>
   </tr>
 </table>
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está sob licença. Consulte o arquivo [LICENSE](LICENSE.md) para obter mais detalhes.
+This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
 &#xa0;
 
-<a href="#top">Volte para o topo</a>
+<a href="#top">Go back to top</a>
